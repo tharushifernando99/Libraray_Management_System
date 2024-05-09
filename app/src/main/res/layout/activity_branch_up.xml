@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/copper_brown">
+
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="402dp"
+        android:layout_height="66dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="237dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="monospace"
+        android:hint="Enter Branch Name"
+        android:textColorHint="@color/Dark_Sienna"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextAddress"
+        android:layout_width="402dp"
+        android:layout_height="66dp"
+        android:layout_below="@+id/editTextName"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="monospace"
+        android:hint="Enter Branch Address"
+        android:textColorHint="@color/Dark_Sienna"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonDone"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="440dp"
+        android:layout_marginEnd="163dp"
+        android:layout_marginBottom="243dp"
+        android:backgroundTint="@color/Golden_sand"
+        android:fontFamily="monospace"
+        android:text="Done"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

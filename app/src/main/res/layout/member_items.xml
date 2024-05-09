@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/NameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:text="Member Name"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"/>
+
+    <ImageView
+        android:id="@+id/updateImageView"
+        android:layout_width="41dp"
+        android:layout_height="37dp"
+        android:layout_alignTop="@id/NameTextView"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="94dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:src="@drawable/ic_update" />
+
+    <ImageView
+        android:id="@+id/deleteImageView"
+        android:layout_width="43dp"
+        android:layout_height="39dp"
+        android:layout_alignTop="@id/NameTextView"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="-97dp"
+        android:layout_toStartOf="@id/updateImageView"
+        android:clickable="true"
+        android:focusable="true"
+        android:src="@drawable/ic_delete" />
+
+    <TextView
+        android:id="@+id/AddressTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="Member Address"
+        android:layout_below="@id/NameTextView"
+        android:layout_alignStart="@id/NameTextView"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/PhoneTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="Member Phone"
+        android:layout_below="@id/AddressTextView"
+        android:layout_alignStart="@id/NameTextView"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/UnpaidTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="Unpaid dues"
+        android:layout_below="@id/PhoneTextView"
+        android:layout_alignStart="@id/NameTextView"
+        android:layout_marginTop="8dp"/>
+
+</RelativeLayout>

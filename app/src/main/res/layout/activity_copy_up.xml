@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Green_gray">
+
+
+    <EditText
+        android:id="@+id/editTextAccessNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="467dp"
+        android:fontFamily="monospace"
+        android:hint="Modify Book Copy Access No"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonDone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="316dp"
+        android:layout_marginEnd="163dp"
+        android:layout_marginBottom="367dp"
+        android:backgroundTint="@color/Golden_sand"
+        android:fontFamily="monospace"
+        android:text="Done" />
+
+</RelativeLayout>
