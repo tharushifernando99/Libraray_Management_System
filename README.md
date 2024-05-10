@@ -8,4 +8,19 @@ The Libaray Management System is a mobile application which is developed by Andr
 
 ### Java Files:
 
-#
+-   Login and Register
+-   Home page
+-   Book pages
+-   Publisher pages
+-   Branch pages
+-   Member pages
+-   Author pages
+-   Book copy pages
+  
+### xml files:
+
+-   xml layouts for all screens
+
+### Drawble 
+
+-   Drawable contains images, icons, shapes for UI interfaces.
